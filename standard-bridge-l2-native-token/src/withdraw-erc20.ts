@@ -102,9 +102,8 @@ const main = async () => {
 
   // now do a deposit
   const depositTx = await messenger.depositERC20(
-    '0xa1b629966e60ADe9AfDe7be06860C43bfFA0dc47', // l1ERC20.address,
-    '0xC8b8CbCd001F23aAF61a6b416f54407DFf2d2b3C', // l2ERC20.address,
-    
+    l1ERC20.address,
+    l2ERC20.address,
     '1'
   )
   console.log("depositTx hash", depositTx.hash)
