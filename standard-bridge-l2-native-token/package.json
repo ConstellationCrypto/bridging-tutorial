@@ -1,0 +1,24 @@
+{
+  "name": "standard-bridge-tutorial",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm install && npx hardhat compile",
+    "clean": "rm -rf artifacts cache node_modules"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.0",
+    "hardhat": "^2.4.1"
+  },
+  "dependencies": {
+    "@constellation-labs/contracts-bedrock": "1.0.1",
+    "@openzeppelin/contracts": "4.3.2",
+    "@constellation-labs/bedrock-sdk": "1.2.0",
+    "dotenv": "^10.0.0",
+    "@eth-optimism/contracts-bedrock": "^0.15.0"
+  }
+}
